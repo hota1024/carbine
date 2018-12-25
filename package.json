@@ -40,7 +40,6 @@
       "node_modules"
     ],
     "moduleNameMapper": {
-      "@base": "<rootDir>/src/Base/Base.js",
       "@/(.+)": "<rootDir>/src/$1"
     }
   }
