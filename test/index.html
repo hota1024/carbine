@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <script src="/dist/carbine.js"></script>
+  <script>
+    const Print = Carbine()
+    Print.CarbineDefine({ x: Number, y: Number }, ({x, y}) => `x=${x},y=${y}`)
+    Print.CarbineDefine({
+      x: {
+        type: Number,
+        default: () => 0
+      },
+      y: {
+        type: Number,
+        default: () => 0
+      }
+    }, ({ x, y }) => `x=${x},y=${y}`)
+  </script>
+</body>
+</html>

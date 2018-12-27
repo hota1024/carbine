@@ -2,9 +2,9 @@ const path = require('path')
 
 module.exports = {
   mode: 'development',
-  entry: '', // Entry file
+  entry: './src/carbine.js', // Entry file
   output: {
-    filename: '', // Filename after build
+    filename: 'carbine.js', // Filename after build
     path: path.join(__dirname, 'dist/'),
     publicPath: '/dist/'
   },

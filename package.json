@@ -1,8 +1,8 @@
 {
-  "name": "craft-box",
+  "name": "carbine",
   "version": "1.0.0",
   "description": "",
-  "main": "src/CraftBox.js",
+  "main": "src/carbine.js",
   "scripts": {
     "build": "webpack",
     "serve": "webpack-dev-server --progress",
