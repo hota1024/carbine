@@ -301,13 +301,8 @@ Carbine.Help.CarbineDefine(
       })
     })
 
-    // console.log(outputBuffer.join('\n'))
     Boxol.Mark(outputBuffer.map(buff => ` ${buff} `))
   }
 )
-
-if (window) {
-  window.Carbine = Carbine
-}
 
 export default Carbine
